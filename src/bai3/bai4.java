@@ -100,6 +100,7 @@ public class bai4 {
 
 	    // In ra màn hình các bảng cửu chương từ bảng 2 đến bảng 10
 	    public static void baiToan3() {
+	    	
 	    	Scanner scanner = new Scanner(System.in);
 	        for (int i = 2; i <= 10; i++) {
 	            System.out.println("Bảng cửu chương " + i + ":");
@@ -110,8 +111,8 @@ public class bai4 {
 	        }
 	    }
 
-	    // Tính gần đúng sin(x) với sai số epsilon
 	    public static void baiToan4() {
+	    	Scanner scanner = new Scanner(System.in);
 	        System.out.print("Nhập giá trị x (radian): ");
 	        double x = scanner.nextDouble();
 	        System.out.print("Nhập sai số epsilon: ");
